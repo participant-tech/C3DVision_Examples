@@ -1,0 +1,354 @@
+﻿{
+    "version": 3,
+    "vendor": {
+        "C3DLabs": {}
+    },
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "base",
+            "hidden": true,
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "environment": {
+                "QT_PATH": "$penv{QT_PATH}"
+            }
+        },
+        {
+            "name": "windows-msvs-2019",
+            "hidden": true,
+            "generator": "Visual Studio 16 2019",
+            "toolset": {
+                "value": "v142,host=x64",
+                "strategy": "external"
+            }
+        },
+        {
+            "name": "windows-msvs-2022",
+            "hidden": true,
+            "generator": "Visual Studio 17 2022",
+            "toolset": {
+                "value": "v143,host=x64",
+                "strategy": "external"
+            }
+        },
+        {
+            "name": "windows-base",
+            "inherits": [
+                "windows-msvs-2022",
+                "base"
+            ],
+            "hidden": true,
+            "environment": {
+                "#comment_for_PATH": "Prepend with ; and with the PATH value for QtX from the 'run.bat' file (generated for Release or Debug target) for debugging Qt-based executables from the IDE.",
+                "PATH": ".;$penv{PATH}"
+            },
+            "cacheVariables": {
+                "C3DVision_GUI_MFC_EXAMPLES": "ON",
+                "C3DVision_GUI_QT5_EXAMPLES": "ON"
+            },
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        },
+        {
+            "name": "x64-debug",
+            "displayName": "x64 Debug",
+            "inherits": [
+                "windows-base"
+            ],
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            },
+            "vendor": {
+                "intelliSenseMode": "windows-msvc-x64"
+            }
+        },
+        {
+            "name": "x64-release",
+            "displayName": "x64 Release",
+            "inherits": [
+                "x64-debug"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "x64-relwithdebinfo",
+            "displayName": "x64 RelWithDebInfo",
+            "inherits": [
+                "x64-debug"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+            }
+        },
+        {
+            "name": "x64-debug-multibyte",
+            "displayName": "x64 Debug MultiByte",
+            "inherits": [
+                "x64-debug"
+            ],
+            "cacheVariables": {
+                "C3DVision_USING_UNICODE": "OFF"
+            }
+        },
+        {
+            "name": "x64-release-multibyte",
+            "displayName": "x64 Release MultiByte",
+            "inherits": [
+                "x64-debug-multibyte"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "x64-relwithdebinfo-multibyte",
+            "displayName": "x64 RelWithDebInfo MultiByte",
+            "inherits": [
+                "x64-debug-multibyte"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+            }
+        },
+        {
+            "name": "x86-debug",
+            "displayName": "x86 Debug",
+            "inherits": [
+                "windows-base"
+            ],
+            "architecture": {
+                "value": "Win32",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_GENERATOR_PLATFORM": "Win32"
+            },
+            "vendor": {
+                "intelliSenseMode": "windows-msvc-x86"
+            }
+        },
+        {
+            "name": "x86-release",
+            "displayName": "x86 Release",
+            "inherits": [
+                "x86-debug"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "x86-relwithdebinfo",
+            "displayName": "x86 RelWithDebInfo",
+            "inherits": [
+                "x86-debug"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+            }
+        },
+        {
+            "name": "x86-debug-multibyte",
+            "displayName": "x86 Debug MultiByte",
+            "inherits": [
+                "x86-debug"
+            ],
+            "cacheVariables": {
+                "C3DVision_USING_UNICODE": "OFF"
+            }
+        },
+        {
+            "name": "x86-release-multibyte",
+            "displayName": "x86 Release MultiByte",
+            "inherits": [
+                "x86-debug-multibyte"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "x86-relwithdebinfo-multibyte",
+            "displayName": "x86 RelWithDebInfo MultiByte",
+            "inherits": [
+                "x86-debug-multibyte"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+            }
+        },
+        {
+            "name": "linux-base",
+            "inherits": [
+                "base"
+            ],
+            "hidden": true,
+            "environment": {
+                "#comment_for_LD_LIBRARY_PATH": "Prepend with : and with the LD_LIBRARY_PATH value for QtX from the 'run.sh' file (generated for Release or Debug target) for debugging Qt-based executables from the IDE.",
+                "LD_LIBRARY_PATH": ".:$penv{LD_LIBRARY_PATH}"
+            },
+            "cacheVariables": {
+                "C3DVision_GUI_MFC_EXAMPLES": "OFF",
+                "C3DVision_GUI_QT5_EXAMPLES": "ON"
+            },
+            "generator": "Unix Makefiles",
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Linux"
+            }
+        },
+        {
+            "name": "linux-x64-debug-gnu",
+            "displayName": "x64 Debug",
+            "inherits": [
+                "linux-base"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_C_COMPILER": "gcc",
+                "CMAKE_CXX_COMPILER": "g++"
+            },
+            "vendor": {
+                "intelliSenseMode": "linux-gcc-x64"
+            }
+        },
+        {
+            "name": "linux-x64-release-gnu",
+            "displayName": "x64 Release",
+            "inherits": [
+                "linux-x64-debug-gnu"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "linux-x64-relwithdebinfo-gnu",
+            "displayName": "x64 RelWithDebInfo",
+            "inherits": [
+                "linux-x64-debug-gnu"
+            ],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "x64-debug",
+            "displayName": "x64 Debug",
+            "configuration": "Debug",
+            "configurePreset": "x64-debug"
+        },
+        {
+            "name": "x64-release",
+            "displayName": "x64 Release",
+            "configuration": "Release",
+            "configurePreset": "x64-release"
+        },
+        {
+            "name": "x64-relwithdebinfo",
+            "displayName": "x64 RelWithDebInfo",
+            "configuration": "RelWithDebInfo",
+            "configurePreset": "x64-relwithdebinfo"
+        },
+        {
+            "name": "x64-debug-multibyte",
+            "displayName": "x64 Debug MultiByte",
+            "configuration": "Debug",
+            "configurePreset": "x64-debug-multibyte"
+        },
+        {
+            "name": "x64-release-multibyte",
+            "displayName": "x64 Release MultiByte",
+            "configuration": "Release",
+            "configurePreset": "x64-release-multibyte"
+        },
+        {
+            "name": "x64-relwithdebinfo-multibyte",
+            "displayName": "x64 RelWithDebInfo MultiByte",
+            "configuration": "RelWithDebInfo",
+            "configurePreset": "x64-relwithdebinfo-multibyte"
+        },
+        {
+            "name": "x86-debug",
+            "displayName": "x86 Debug",
+            "configuration": "Debug",
+            "configurePreset": "x86-debug"
+        },
+        {
+            "name": "x86-release",
+            "displayName": "x86 Release",
+            "configuration": "Release",
+            "configurePreset": "x86-release"
+        },
+        {
+            "name": "x86-relwithdebinfo",
+            "displayName": "x86 RelWithDebInfo",
+            "configuration": "RelWithDebInfo",
+            "configurePreset": "x86-relwithdebinfo"
+        },
+        {
+            "name": "x86-debug-multibyte",
+            "displayName": "x86 Debug MultiByte",
+            "configuration": "Debug",
+            "configurePreset": "x86-debug-multibyte"
+        },
+        {
+            "name": "x86-release-multibyte",
+            "displayName": "x86 Release MultiByte",
+            "configuration": "Release",
+            "configurePreset": "x86-release-multibyte"
+        },
+        {
+            "name": "x86-relwithdebinfo-multibyte",
+            "displayName": "x86 RelWithDebInfo MultiByte",
+            "configuration": "RelWithDebInfo",
+            "configurePreset": "x86-relwithdebinfo-multibyte"
+        },
+        {
+            "name": "build-helper",
+            "hidden": true,
+            "jobs": 16
+        },
+        {
+            "name": "linux-x64-debug-gnu",
+            "inherits": [
+                "build-helper"
+            ],
+            "displayName": "x64 Debug",
+            "configurePreset": "linux-x64-debug-gnu"
+        },
+        {
+            "name": "linux-x64-release-gnu",
+            "inherits": [
+                "build-helper"
+            ],
+            "displayName": "x64 Release",
+            "configurePreset": "linux-x64-release-gnu"
+        },
+        {
+            "name": "linux-x64-relwithdebinfo-gnu",
+            "inherits": [
+                "build-helper"
+            ],
+            "displayName": "x64 RelWithDebInfo",
+            "configurePreset": "linux-x64-relwithdebinfo-gnu"
+        }
+    ]
+}

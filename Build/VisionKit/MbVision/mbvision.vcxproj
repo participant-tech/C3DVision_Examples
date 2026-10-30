@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE73A722-DF96-380A-B7FD-6E896BE78281}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mbvision</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\TZ\VisionApp\Examples\Build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mbvision.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mbvision</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\TZ\VisionApp\Examples\Build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mbvision.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mbvision</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TZ\VisionApp\Examples\Build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mbvision.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mbvision</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;_DRAWGI;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;NOMINMAX;_WIN32_WINNT=0X0502;_BUILDMBVISIONDLL;VSN_OS_WIN32;VSN_OS_WIN;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_DRAWGI;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;NOMINMAX;_WIN32_WINNT=0X0502;_BUILDMBVISIONDLL;VSN_OS_WIN32;VSN_OS_WIN;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;NOMINMAX;_WIN32_WINNT=0X0502;_BUILDMBVISIONDLL;VSN_OS_WIN32;VSN_OS_WIN;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;NOMINMAX;_WIN32_WINNT=0X0502;_BUILDMBVISIONDLL;VSN_OS_WIN32;VSN_OS_WIN;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;NOMINMAX;_WIN32_WINNT=0X0502;_BUILDMBVISIONDLL;VSN_OS_WIN32;VSN_OS_WIN;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;NOMINMAX;_WIN32_WINNT=0X0502;_BUILDMBVISIONDLL;VSN_OS_WIN32;VSN_OS_WIN;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex;D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/TZ/VisionApp/Examples/VisionKit/MbVision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cm\bin\cmake.exe -SD:/TZ/VisionApp/Examples -BD:/TZ/VisionApp/Examples/Build --check-stamp-file D:/TZ/VisionApp/Examples/Build/VisionKit/MbVision/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\TZ\VisionApp\Examples\Build\VisionKit\MbVision\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/TZ/VisionApp/Examples/VisionKit/MbVision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cm\bin\cmake.exe -SD:/TZ/VisionApp/Examples -BD:/TZ/VisionApp/Examples/Build --check-stamp-file D:/TZ/VisionApp/Examples/Build/VisionKit/MbVision/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\TZ\VisionApp\Examples\Build\VisionKit\MbVision\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TZ/VisionApp/Examples/VisionKit/MbVision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cm\bin\cmake.exe -SD:/TZ/VisionApp/Examples -BD:/TZ/VisionApp/Examples/Build --check-stamp-file D:/TZ/VisionApp/Examples/Build/VisionKit/MbVision/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TZ\VisionApp\Examples\Build\VisionKit\MbVision\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_brep_model.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_brep_model.h" />
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_dimension.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_dimension.h" />
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_extension.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_extension.h" />
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_routines.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_routines.h" />
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_tree.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_tree.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_types.h" />
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_scenegenerator.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_scenegenerator.h" />
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_progressbuild.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_progressbuild.h" />
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext\mb_pointcloud.cpp" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext\mb_pointcloud.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mb_scenegenerator.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_model_tree.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_model_extension.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_model_routines.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mb_visiondef.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_types.h" />
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mb_pointcloud.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\TZ\VisionApp\Examples\Build\ZERO_CHECK.vcxproj">
+      <Project>{67A037AF-BEEF-301D-B7B4-7A6658F27A65}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

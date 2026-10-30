@@ -1,0 +1,46 @@
+---
+# Configure clang-tidy for this project.
+# https://clang.llvm.org/extra/clang-tidy/checks/list.html
+
+Checks: >
+    -*,
+    readability-identifier-naming,
+
+# Turn all the warnings from the checks above into errors.
+# WarningsAsErrors: "*"
+
+CheckOptions:
+    
+    # https://clang.llvm.org/extra/clang-tidy/checks/readability/identifier-naming.html
+    # Case
+    - { key: readability-identifier-naming.ClassCase,              value: CamelCase  }
+
+    - { key: readability-identifier-naming.MemberCase,             value: camelBack  }
+    - { key: readability-identifier-naming.PrivateMemberPrefix,     value: m_ }
+    - { key: readability-identifier-naming.ProtectedMemberPrefix,   value: m_ }
+    - { key: readability-identifier-naming.PublicMemberPrefix,     value: m_ }
+
+    - { key: readability-identifier-naming.VariableCase,           value: camelBack  }
+    - { key: readability-identifier-naming.ParameterCase,          value: camelBack  }
+
+    - { key: readability-identifier-naming.FunctionCase,           value: CamelCase  }
+    - { key: readability-identifier-naming.MethodCase,              value: CamelCase }
+    - { key: readability-identifier-naming.MethodIgnoredRegexp, value: "((begin)|(end)|(cbegin)|(cend)|(rbegin)|(rend)|(crbegin)|(crend)|(front)|(back)|(push_front)|(push_back)|(pop_front)|(pop_back)|(clear)|(reserve)|(resize)|(capacity)|(empty)|(insert)|(erase)|(size)|(at)|(find)|(^gl.*))" }
+
+    - { key: readability-identifier-naming.NamespaceCase,          value: camelBack }
+    - { key: readability-identifier-naming.MacroDefinitionCase,    value: UPPER_CASE }
+    - { key: readability-identifier-naming.MacroDefinitionIgnoredRegexp, value: "(_.*)"  }
+
+    - { key: readability-identifier-naming.EnumCase,               value: CamelCase  }
+    - { key: readability-identifier-naming.EnumConstantCase,       value: camelBack  }
+    - { key: readability-identifier-naming.ScopedEnumConstantCase, value: camelBack  }
+
+    - { key: readability-identifier-naming.TemplateParameterCase,  value: CamelCase  }
+
+
+    - { key: readability-identifier-naming.ClassConstantCase,      value: camelBack  }
+    - { key: readability-identifier-naming.GlobalConstantCase,     value: camelBack  }
+    - { key: readability-identifier-naming.StaticVariableCase,     value: camelBack  }
+    - { key: readability-identifier-naming.StaticConstantCase,     value: camelBack  }
+
+    - { key: readability-identifier-naming.GetConfigPerFile, value: true }

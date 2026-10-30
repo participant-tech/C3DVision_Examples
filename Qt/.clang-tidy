@@ -1,0 +1,16 @@
+﻿---
+# Configure clang-tidy for this project.
+# https://clang.llvm.org/extra/clang-tidy/checks/list.html
+
+Checks: >
+  -*,
+  readability-identifier-naming,
+
+# Turn all the warnings from the checks above into errors.
+# WarningsAsErrors: "*"
+
+CheckOptions:
+
+  # https://clang.llvm.org/extra/clang-tidy/checks/readability/identifier-naming.html
+  # Case
+  - { key: readability-identifier-naming.MethodCase,              value: camelBack }

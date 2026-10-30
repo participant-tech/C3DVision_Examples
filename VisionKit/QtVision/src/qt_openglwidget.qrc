@@ -1,0 +1,70 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>../res/crystal.ico</file>
+
+        <file>../res/view_all_48.png</file>
+        <file>../res/zoomfit_48.png</file>
+        <file>../res/zoomframe_48.png</file>
+        <file>../res/isometry_x.png</file>
+        <file>../res/perspectv_48.png</file>
+        <file>../res/apply_48.png</file>
+
+        <file>../res/view_back_48.png</file>
+        <file>../res/view_bottom_48.png</file>
+        <file>../res/view_front_48.png</file>
+        <file>../res/view_left_48.png</file>
+        <file>../res/view_right_48.png</file>
+        <file>../res/view_top_48.png</file>
+        <file>../res/view_orientation_48.png</file>
+
+        <file>../res/selectfilter_face_48.png</file>
+        <file>../res/selectfilter_edge_48.png</file>
+        <file>../res/selectfilter_vertex_48.png</file>
+        <file>../res/selectfilter_body_48.png</file>
+
+        <file>../res/assemb.ico</file>
+        <file>../res/detail.ico</file>
+        <file>../res/project.ico</file>
+
+        <file>../res/sitec3dlabs_48.png</file>
+        <file>../res/newfile_48.png</file>
+        <file>../res/openfile_48.png</file>
+        <file>../res/savefile_48.png</file>
+
+        <file>../res/progressindicator_small.png</file>
+        <file>../res/progressindicator_small_2x.png</file>
+        <file>../res/progressindicator_medium.png</file>
+        <file>../res/progressindicator_medium_2x.png</file>
+        <file>../res/progressindicator_big.png</file>
+        <file>../res/progressindicator_big_2x.png</file>
+
+        <file>../res/view_iso_x.png</file>
+        <file>../res/view_iso_y.png</file>
+        <file>../res/view_iso_z.png</file>
+        <file>../res/view_iso_x_iso.png</file>
+        <file>../res/view_iso_y_iso.png</file>
+        <file>../res/view_iso_z_iso.png</file>
+
+        <file>../res/dimmedWireframe.png</file>
+        <file>../res/wirefrmgrids_48.png</file>
+        <file>../res/hiddenremoved.png</file>
+        <file>../res/shaded.png</file>
+        <file>../res/wirefrm.png</file>
+        <file>../res/desktop.png</file>
+        <file>../res/close.png</file>
+        <file>../res/about_scene_48.png</file>
+        <file>../res/dummy_dark.png</file>
+        <file>../res/dummy_light.png</file>
+
+
+        <file>../res/default.c3dtheme</file>
+        <file>../res/dark.c3dtheme</file>
+        <file>../res/flat-dark.c3dtheme</file>
+        <file>../res/flat-light.c3dtheme</file>
+        <file>../res/flat.c3dtheme</file>
+        
+        <file>../res/workshop-light.c3dtheme</file>
+        <file>../res/workshop.c3dtheme</file>
+
+    </qresource>
+</RCC>

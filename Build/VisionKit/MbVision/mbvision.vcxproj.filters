@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_brep_model.cpp">
+      <Filter>Modex</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_dimension.cpp">
+      <Filter>Modex</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_extension.cpp">
+      <Filter>Modex</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_routines.cpp">
+      <Filter>Modex</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_tree.cpp">
+      <Filter>Modex</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_scenegenerator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_progressbuild.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext\mb_pointcloud.cpp">
+      <Filter>Ext</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_brep_model.h">
+      <Filter>Modex</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_dimension.h">
+      <Filter>Modex</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_extension.h">
+      <Filter>Modex</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_routines.h">
+      <Filter>Modex</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_model_tree.h">
+      <Filter>Modex</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\modex\mx_types.h">
+      <Filter>Modex</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_scenegenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\common\mb_progressbuild.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\src\ext\mb_pointcloud.h">
+      <Filter>Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mb_scenegenerator.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_model_tree.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_model_extension.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_model_routines.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mb_visiondef.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mx_types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\include\mb_pointcloud.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\VisionKit\MbVision\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{887C9B07-D027-39EA-BD05-02EFBB086CF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext">
+      <UniqueIdentifier>{342B9CD5-29C6-391D-B998-CCD61D3941E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{3C5864EC-B695-3668-9FB6-E3F84151FB3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modex">
+      <UniqueIdentifier>{1C7E9FB6-4777-3032-9AF3-BC085C53A5CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

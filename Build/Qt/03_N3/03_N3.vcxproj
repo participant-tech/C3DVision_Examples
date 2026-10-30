@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E84623D-9565-3CC8-A512-73108A2A02FD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>03_N3</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\TZ\VisionApp\Examples\Build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">03_N3.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">03_N3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\TZ\VisionApp\Examples\Build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">03_N3.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">03_N3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TZ\VisionApp\Examples\Build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">03_N3.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">03_N3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/w_qt/5.12.12/msvc2017_64/include" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtCore" /external:I "D:/w_qt/5.12.12/msvc2017_64/./mkspecs/win32-msvc" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtGui" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtANGLE" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtWidgets" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtOpenGL" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;_DRAWGI;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_DRAWGI;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;D:\w_qt\5.12.12\msvc2017_64\include;D:\w_qt\5.12.12\msvc2017_64\include\QtCore;D:\w_qt\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\w_qt\5.12.12\msvc2017_64\include\QtGui;D:\w_qt\5.12.12\msvc2017_64\include\QtANGLE;D:\w_qt\5.12.12\msvc2017_64\include\QtWidgets;D:\w_qt\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;D:\w_qt\5.12.12\msvc2017_64\include;D:\w_qt\5.12.12\msvc2017_64\include\QtCore;D:\w_qt\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\w_qt\5.12.12\msvc2017_64\include\QtGui;D:\w_qt\5.12.12\msvc2017_64\include\QtANGLE;D:\w_qt\5.12.12\msvc2017_64\include\QtWidgets;D:\w_qt\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\bin\Debug\qtvision.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5OpenGLd.lib;c3dvision.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Widgetsd.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Guid.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Cored.lib;D:\w_qt\5.12.12\msvc2017_64\lib\qtmaind.lib;..\..\bin\Debug\mbvision.lib;D:\TZ\VisionApp\Examples\..\Kernel\Debug\c3d.lib;c3dvision.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/TZ/VisionApp/Examples/../Vision/Debug;D:/TZ/VisionApp/Examples/../Vision/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/TZ/VisionApp/Examples/Build/bin/Debug/03_N3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/TZ/VisionApp/Examples/Build/bin/Debug/03_N3.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/w_qt/5.12.12/msvc2017_64/include" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtCore" /external:I "D:/w_qt/5.12.12/msvc2017_64/./mkspecs/win32-msvc" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtGui" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtANGLE" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtWidgets" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtOpenGL"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;D:\w_qt\5.12.12\msvc2017_64\include;D:\w_qt\5.12.12\msvc2017_64\include\QtCore;D:\w_qt\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\w_qt\5.12.12\msvc2017_64\include\QtGui;D:\w_qt\5.12.12\msvc2017_64\include\QtANGLE;D:\w_qt\5.12.12\msvc2017_64\include\QtWidgets;D:\w_qt\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;D:\w_qt\5.12.12\msvc2017_64\include;D:\w_qt\5.12.12\msvc2017_64\include\QtCore;D:\w_qt\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\w_qt\5.12.12\msvc2017_64\include\QtGui;D:\w_qt\5.12.12\msvc2017_64\include\QtANGLE;D:\w_qt\5.12.12\msvc2017_64\include\QtWidgets;D:\w_qt\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\bin\RelWithDebInfo\qtvision.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5OpenGL.lib;c3dvision.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Widgets.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Gui.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Core.lib;D:\w_qt\5.12.12\msvc2017_64\lib\qtmain.lib;..\..\bin\RelWithDebInfo\mbvision.lib;D:\TZ\VisionApp\Examples\..\Kernel\Release\c3d.lib;c3dvision.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/TZ/VisionApp/Examples/../Vision/Release;D:/TZ/VisionApp/Examples/../Vision/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/TZ/VisionApp/Examples/Build/bin/RelWithDebInfo/03_N3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/TZ/VisionApp/Examples/Build/bin/RelWithDebInfo/03_N3.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/w_qt/5.12.12/msvc2017_64/include" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtCore" /external:I "D:/w_qt/5.12.12/msvc2017_64/./mkspecs/win32-msvc" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtGui" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtANGLE" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtWidgets" /external:I "D:/w_qt/5.12.12/msvc2017_64/include/QtOpenGL"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;UNICODE;_UNICODE;__USE_QT__;QT_NO_DEPRECATED_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;D:\w_qt\5.12.12\msvc2017_64\include;D:\w_qt\5.12.12\msvc2017_64\include\QtCore;D:\w_qt\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\w_qt\5.12.12\msvc2017_64\include\QtGui;D:\w_qt\5.12.12\msvc2017_64\include\QtANGLE;D:\w_qt\5.12.12\msvc2017_64\include\QtWidgets;D:\w_qt\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TZ\VisionApp\Examples;D:\TZ\VisionApp\Examples\Shared;D:\TZ\VisionApp\Examples\..\Kernel\Include;D:\TZ\VisionApp\Examples\..\Kernel\include;D:\TZ\VisionApp\Examples\..\Kernel\include\c3d;D:\TZ\VisionApp\Examples\..\Vision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor;D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor;D:\TZ\VisionApp\Examples\VisionKit\MbVision\include;D:\w_qt\5.12.12\msvc2017_64\include;D:\w_qt\5.12.12\msvc2017_64\include\QtCore;D:\w_qt\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\w_qt\5.12.12\msvc2017_64\include\QtGui;D:\w_qt\5.12.12\msvc2017_64\include\QtANGLE;D:\w_qt\5.12.12\msvc2017_64\include\QtWidgets;D:\w_qt\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\bin\Release\qtvision.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5OpenGL.lib;c3dvision.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Widgets.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Gui.lib;D:\w_qt\5.12.12\msvc2017_64\lib\Qt5Core.lib;D:\w_qt\5.12.12\msvc2017_64\lib\qtmain.lib;..\..\bin\Release\mbvision.lib;D:\TZ\VisionApp\Examples\..\Kernel\Release\c3d.lib;c3dvision.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/TZ/VisionApp/Examples/../Vision/Release;D:/TZ/VisionApp/Examples/../Vision/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/TZ/VisionApp/Examples/Build/bin/Release/03_N3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/TZ/VisionApp/Examples/Build/bin/Release/03_N3.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Qt\03_N3\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/TZ/VisionApp/Examples/Qt/03_N3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cm\bin\cmake.exe -SD:/TZ/VisionApp/Examples -BD:/TZ/VisionApp/Examples/Build --check-stamp-file D:/TZ/VisionApp/Examples/Build/Qt/03_N3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\TZ\VisionApp\Examples\Build\Qt\03_N3\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/TZ/VisionApp/Examples/Qt/03_N3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cm\bin\cmake.exe -SD:/TZ/VisionApp/Examples -BD:/TZ/VisionApp/Examples/Build --check-stamp-file D:/TZ/VisionApp/Examples/Build/Qt/03_N3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\TZ\VisionApp\Examples\Build\Qt\03_N3\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TZ/VisionApp/Examples/Qt/03_N3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cm\bin\cmake.exe -SD:/TZ/VisionApp/Examples -BD:/TZ/VisionApp/Examples/Build --check-stamp-file D:/TZ/VisionApp/Examples/Build/Qt/03_N3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TZ\VisionApp\Examples\Build\Qt\03_N3\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Qt\03_N3\N3.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\TZ\VisionApp\Examples\Build\ZERO_CHECK.vcxproj">
+      <Project>{67A037AF-BEEF-301D-B7B4-7A6658F27A65}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\TZ\VisionApp\Examples\Build\VisionKit\MbVision\mbvision.vcxproj">
+      <Project>{AE73A722-DF96-380A-B7FD-6E896BE78281}</Project>
+      <Name>mbvision</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\qtvision.vcxproj">
+      <Project>{15D4BBEA-026D-3694-95F1-1AA928F2CEAA}</Project>
+      <Name>qtvision</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

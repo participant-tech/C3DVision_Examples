@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/TZ/VisionApp/Examples/VisionKit/QtVision/CMake/VsnQtCoreDeploySupport.cmake
+D:/TZ/VisionApp/Examples/VisionKit/QtVision/CMakeLists.txt
+D:/TZ/VisionApp/Examples/VisionKit/QtVision/src/propbrowser/qt_propertybrowser.qrc
+D:/TZ/VisionApp/Examples/VisionKit/QtVision/src/qt_openglwidget.qrc
+D:/cm/share/cmake-3.31/Modules/CMakeDependentOption.cmake
+D:/cm/share/cmake-3.31/Modules/CMakeParseArguments.cmake

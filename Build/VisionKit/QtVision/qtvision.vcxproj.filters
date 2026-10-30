@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_eventlistener.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_openglwidget.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_openglwindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_openglcontext.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_licensewnd.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_cursors.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_colorbutton.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_global.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_mainwindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_sdimainwindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_mdimainwindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_icore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_icontext.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_application.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_actioncontainer.cpp">
+      <Filter>Core\Actionmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_actionmanager.cpp">
+      <Filter>Core\Actionmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_command.cpp">
+      <Filter>Core\Actionmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs\qt_ioptionspage.cpp">
+      <Filter>Core\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs\qt_settingsdialog.cpp">
+      <Filter>Core\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style\qt_theme.cpp">
+      <Filter>Style</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style\qt_c3dstyle.cpp">
+      <Filter>Style</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style\qt_stylehelper.cpp">
+      <Filter>Style</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_aspects.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_commandbar.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_commandline.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_id.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_icon.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_hostosinfo.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_appmainwindow.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_previewwidget.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_overlaywidget.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_progressindicator.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_processmanager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_headsuptoolbar.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_orientationbar.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_sceneviewcontroller.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_proxyaction.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_stringutils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_filepath.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_fileutils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_savefile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_environment.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_elidinglabel.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_infolabel.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_utilsicons.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_macroexpander.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_pathchooser.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_completinglineedit.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_fancylineedit.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_namevalueitem.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_namevaluedictionary.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propbrowserwidget.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propertybrowser.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propertymanager.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_editorfactory.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_variantproperty.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_treepropertybrowser.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_buttonpropertybrowser.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_groupboxpropertybrowser.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propertybrowserutils.cpp">
+      <Filter>PropBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_modelnodes.cpp">
+      <Filter>ProjectExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_modeltreewidget.cpp">
+      <Filter>ProjectExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_treemodel.cpp">
+      <Filter>ProjectExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_projectmodels.cpp">
+      <Filter>ProjectExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_project.cpp">
+      <Filter>ProjectExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager\qt_createnodetreebuilder.cpp">
+      <Filter>ModPrjManager</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager\qt_createprjnodes.cpp">
+      <Filter>ModPrjManager</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor\qt_materialprop.cpp">
+      <Filter>PropEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor\qt_modeleditor.cpp">
+      <Filter>ModelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor\qt_modelview.cpp">
+      <Filter>ModelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor\qt_modeldocument.cpp">
+      <Filter>ModelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_openglwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_licensewnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_colorbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_propertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_propertymanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_variantproperty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_treepropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\Include\moc_qt_groupboxpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\moc_qt_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\moc_qt_openglwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\moc_qt_sdimainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\moc_qt_mdimainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\moc_qt_icore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\actionmanager\moc_qt_actioncontainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\actionmanager\moc_qt_actionmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\actionmanager\moc_qt_command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\dialogs\moc_qt_ioptionspage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propbrowser\moc_qt_buttonpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propeditor\moc_qt_materialprop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\style\moc_qt_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\style\moc_qt_c3dstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_headsuptoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_orientationbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_sceneviewcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_appmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_processmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_aspects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_savefile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_fancylineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_completinglineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_elidinglabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_pathchooser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\projectexplorer\moc_qt_modeltreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\projectexplorer\moc_qt_treemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\projectexplorer\moc_qt_projectmodels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propbrowser\moc_qt_propbrowserwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propbrowser\moc_qt_editorfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propbrowser\moc_qt_editorfactoryprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propbrowser\moc_qt_treepropertybrowserprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propbrowser\moc_qt_propertymanagerprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\propbrowser\moc_qt_propertybrowserutilsprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\actionmanager\moc_qt_actionmanagerprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\actionmanager\moc_qt_actioncontainerprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\core\actionmanager\moc_qt_commandprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\modeleditor\moc_qt_modeleditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\modeleditor\moc_qt_modelview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\modeleditor\moc_qt_modeldocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_commandbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_previewwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_proxyaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\src\utils\moc_qt_completionshortcut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\qrc_qt_openglwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Build\VisionKit\QtVision\qrc_qt_propertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TZ\VisionApp\Examples\Shared\readwritelic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_eventlistener.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_openglwidget.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_mainwindow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_sdimainwindow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_mdimainwindow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_icore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_icontext.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_coreconstants.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\qt_application.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_actioncontainer.h">
+      <Filter>Core\Actionmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_actioncontainerprivate.h">
+      <Filter>Core\Actionmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_actionmanager.h">
+      <Filter>Core\Actionmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_actionmanagerprivate.h">
+      <Filter>Core\Actionmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_command.h">
+      <Filter>Core\Actionmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\actionmanager\qt_commandprivate.h">
+      <Filter>Core\Actionmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs\qt_ioptionspage.h">
+      <Filter>Core\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\core\dialogs\qt_settingsdialog.h">
+      <Filter>Core\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style\qt_theme.h">
+      <Filter>Style</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style\qt_c3dstyle.h">
+      <Filter>Style</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\style\qt_stylehelper.h">
+      <Filter>Style</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_algorithm.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_aspects.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_commandbar.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_commandbarprivate.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_commandline.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_id.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_icon.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_hostosinfo.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_appmainwindow.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_previewwidget.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_predicates.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_overlaywidget.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_progressindicator.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_processmanager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_headsuptoolbar.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_orientationbar.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_sceneviewcontroller.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_proxyaction.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_stringutils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_filepath.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_fileutils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_savefile.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_osspecificaspects.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_porting.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_environment.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_environmentfwd.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_elidinglabel.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_infolabel.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_utilsicons.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_optional.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_macroexpander.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_pathchooser.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_completinglineedit.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_fancylineedit.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_namevalueitem.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\utils\qt_namevaluedictionary.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propbrowserwidget.h">
+      <Filter>PropBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propertymanagerprivate.h">
+      <Filter>PropBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_editorfactoryprivate.h">
+      <Filter>PropBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_treepropertybrowserprivate.h">
+      <Filter>PropBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propertybrowserutilsprivate.h">
+      <Filter>PropBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_editorfactory.h">
+      <Filter>PropBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_modelnodes.h">
+      <Filter>ProjectExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_modeltreewidget.h">
+      <Filter>ProjectExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_treemodel.h">
+      <Filter>ProjectExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_projectmodels.h">
+      <Filter>ProjectExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\projectexplorer\qt_project.h">
+      <Filter>ProjectExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager\qt_createnodetreebuilder.h">
+      <Filter>ModPrjManager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modprjmanager\qt_createprjnodes.h">
+      <Filter>ModPrjManager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propeditor\qt_materialprop.h">
+      <Filter>PropEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor\qt_modeleditor.h">
+      <Filter>ModelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor\qt_modelview.h">
+      <Filter>ModelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\modeleditor\qt_modeldocument.h">
+      <Filter>ModelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_id.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_propbrowserwidget.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_openglwidget.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_openglcontext.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_openglwindow.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_resstream.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_licensewnd.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_cursors.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_headsuptoolbar.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_colorbutton.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_global.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_osspecificaspects.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_mainwindow.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_application.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_materialprop.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_sceneviewcontroller.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_orientationbar.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\Include\qt_vision.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TZ\VisionApp\Examples\Shared\readwritelic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_openglwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_licensewnd.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_colorbutton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_propertybrowser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_propertymanager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_variantproperty.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_treepropertybrowser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\a1d1a4c79e7bf616eb38e0a7ac40132f\moc_qt_groupboxpropertybrowser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e51ec77831f1b626e5f57a7c461f107b\moc_qt_mainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e51ec77831f1b626e5f57a7c461f107b\moc_qt_openglwidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e51ec77831f1b626e5f57a7c461f107b\moc_qt_sdimainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e51ec77831f1b626e5f57a7c461f107b\moc_qt_mdimainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e51ec77831f1b626e5f57a7c461f107b\moc_qt_icore.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\5a7662bd12d430474e3460f609923c0c\moc_qt_actioncontainer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\5a7662bd12d430474e3460f609923c0c\moc_qt_actionmanager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\5a7662bd12d430474e3460f609923c0c\moc_qt_command.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\d0072635b578e06b271013e26951bf71\moc_qt_ioptionspage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\3d6d1a4bb948c8409a98f79df638eea1\moc_qt_buttonpropertybrowser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\d2c987420ca671c9b1f1c034d014ab9c\moc_qt_materialprop.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\bdea83178517ca13f9380bec1b2a455e\moc_qt_theme.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\bdea83178517ca13f9380bec1b2a455e\moc_qt_c3dstyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_headsuptoolbar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_orientationbar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_sceneviewcontroller.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_appmainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_processmanager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_aspects.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_savefile.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_fancylineedit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_completinglineedit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_elidinglabel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_pathchooser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\dbd07fbb0a868e15362df2de56ed71cd\moc_qt_modeltreewidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\dbd07fbb0a868e15362df2de56ed71cd\moc_qt_treemodel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\dbd07fbb0a868e15362df2de56ed71cd\moc_qt_projectmodels.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\3d6d1a4bb948c8409a98f79df638eea1\moc_qt_propbrowserwidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\3d6d1a4bb948c8409a98f79df638eea1\moc_qt_editorfactory.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\3d6d1a4bb948c8409a98f79df638eea1\moc_qt_editorfactoryprivate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\3d6d1a4bb948c8409a98f79df638eea1\moc_qt_treepropertybrowserprivate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\3d6d1a4bb948c8409a98f79df638eea1\moc_qt_propertymanagerprivate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\3d6d1a4bb948c8409a98f79df638eea1\moc_qt_propertybrowserutilsprivate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\5a7662bd12d430474e3460f609923c0c\moc_qt_actionmanagerprivate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\5a7662bd12d430474e3460f609923c0c\moc_qt_actioncontainerprivate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\5a7662bd12d430474e3460f609923c0c\moc_qt_commandprivate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e25673d07528ddee0f1da0aa174d2f60\moc_qt_modeleditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e25673d07528ddee0f1da0aa174d2f60\moc_qt_modelview.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\e25673d07528ddee0f1da0aa174d2f60\moc_qt_modeldocument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_commandbar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_previewwidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_proxyaction.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\Build\CMakeFiles\fe7a05fb88242006181deeb48266e066\moc_qt_completionshortcut.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\qt_openglwidget.qrc" />
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\src\propbrowser\qt_propertybrowser.qrc" />
+    <CustomBuild Include="D:\TZ\VisionApp\Examples\VisionKit\QtVision\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5350381B-FA69-3551-8414-AAA1B5844A19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{0268E9D5-D87D-3E99-AC14-3E0903FF8B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Actionmanager">
+      <UniqueIdentifier>{FFDFBF39-7F8F-3BBF-8307-A053F13CA210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dialogs">
+      <UniqueIdentifier>{D92D96FB-8046-328A-A1B7-0D663E2A658D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3A91B589-75AA-305A-8DA1-2FFCD06F28DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{3C5864EC-B695-3668-9FB6-E3F84151FB3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModPrjManager">
+      <UniqueIdentifier>{384BFF1F-6481-366B-89D1-8655B4F5BC6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModelEditor">
+      <UniqueIdentifier>{B2A0564C-34AC-382A-9640-9B4F7231E619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectExplorer">
+      <UniqueIdentifier>{077FAB07-FEFE-332F-9473-46D1251E5CAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PropBrowser">
+      <UniqueIdentifier>{3BB9395E-288F-3FC9-80E3-F9B7D1D69F83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PropEditor">
+      <UniqueIdentifier>{3B7C1575-D017-30D2-B1E6-6C7F2C37F1E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{45FDCCAE-741C-3181-BC5B-55A7F8722C7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Style">
+      <UniqueIdentifier>{587A2DB0-2355-380B-965E-1D734450D48B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{38B99732-6B55-3A4E-9A84-31EEC37B216B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

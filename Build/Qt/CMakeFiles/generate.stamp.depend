@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/TZ/VisionApp/Examples/Qt/CMake/VsnAddQtAndMathSupport.cmake
+D:/TZ/VisionApp/Examples/Qt/CMakeLists.txt
+D:/TZ/VisionApp/Examples/VisionKit/QtVision/CMake/VsnQtCoreDeploySupport.cmake
+D:/cm/share/cmake-3.31/Modules/CMakeDependentOption.cmake
+D:/cm/share/cmake-3.31/Modules/CMakeParseArguments.cmake
